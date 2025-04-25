@@ -38,7 +38,7 @@
   /* Container */
   --container-*: initial;
   --container-lg: 90rem; /* 1440px */
-  --container-md: 75rem; /* 1200px */
+  --container-md: 81rem; /* 1296px */
   --container-sm: 56.25rem; /* 900px */
   --container-xs: 37.5rem; /* 600px */
   --container-base: none;
@@ -57,4 +57,10 @@
 @utility container-* {
   @apply w-full px-(--spacing-screen-padding) mx-auto;
   max-width: calc((var(--spacing-screen-padding) * 2 + --value(--container-*) * var(--container-base-size)));
+}
+
+@layer components {
+  .h1 {
+    @apply text-6xl desktop:text-8xl;
+  }
 }
