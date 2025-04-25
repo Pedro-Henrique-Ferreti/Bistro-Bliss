@@ -1,9 +1,12 @@
 <template>
   <RouterLink
-    class="inline-block"
+    class="inline-flex"
     :to="{ name: 'home' }"
   >
-    <component :is="theme === 'light' ? IconLogoWhite : IconLogo" />
+    <component
+      :is="theme === 'light' ? IconLogoWhite : IconLogo"
+      class="w-full h-full"
+    />
   </RouterLink>
 </template>
 
