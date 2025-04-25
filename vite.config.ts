@@ -13,7 +13,18 @@ export default defineConfig({
     vueDevTools(),
     eslint(),
     tailwindcss(),
-    svgLoader(),
+    svgLoader({
+      svgoConfig: {
+        plugins: [{
+          name: 'preset-default',
+          params: {
+            overrides: {
+              removeViewBox: false,
+            },
+          },
+        }],
+      },
+    }),
   ],
   resolve: {
     alias: {
