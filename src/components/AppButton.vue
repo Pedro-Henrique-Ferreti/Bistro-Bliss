@@ -40,7 +40,7 @@ withDefaults(defineProps<{
 @reference '@/assets/css/main.css';
 
 .button {
-  @apply inline-block font-semibold text-base cursor-pointer;
+  @apply inline-flex items-center font-semibold text-base cursor-pointer;
 }
 .button:not([data-variant="text"]) {
   @apply h-4 px-2 rounded-full;
@@ -64,6 +64,6 @@ withDefaults(defineProps<{
   }
 }
 .button[data-variant="text"] {
-  @apply h-[1.75rem] text-neutral-7 hover:text-neutral-7/80 transition-colors;
+  @apply h-[1.75rem] text-primary hover:text-primary/80 transition-colors;
 }
 </style>

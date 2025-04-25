@@ -61,6 +61,12 @@
 
 @layer components {
   .h1 {
-    @apply text-6xl desktop:text-8xl;
+    @apply text-6xl font-secondary desktop:text-8xl;
+  }
+  .h2 {
+    @apply text-4xl font-secondary font-medium desktop:text-6xl;
+  }
+  .h3 {
+    @apply font-bold text-[1.25rem];
   }
 }
