@@ -5,6 +5,7 @@ import vueDevTools from 'vite-plugin-vue-devtools';
 // @ts-expect-error missing types
 import eslint from 'vite-plugin-eslint';
 import tailwindcss from '@tailwindcss/vite';
+import svgLoader from 'vite-svg-loader';
 
 export default defineConfig({
   plugins: [
@@ -12,6 +13,7 @@ export default defineConfig({
     vueDevTools(),
     eslint(),
     tailwindcss(),
+    svgLoader(),
   ],
   resolve: {
     alias: {
