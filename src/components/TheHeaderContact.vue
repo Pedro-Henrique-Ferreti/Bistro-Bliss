@@ -30,7 +30,7 @@
           aria-label="Facebook"
           to="https://facebook.com"
         >
-          <IconFacebook class="fill-white -translate-x-[1px]" />
+          <IconFacebook class="fill-white" />
         </BaseButton>
         <BaseButton
           class="w-[1.75rem] h-[1.75rem] grid place-items-center rounded-full bg-neutral-1/12 hover:bg-neutral-1/50 transition-colors"
