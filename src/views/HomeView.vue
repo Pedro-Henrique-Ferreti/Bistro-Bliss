@@ -57,7 +57,7 @@
       <h2 class="h2">
         We also offer unique <br class="max-[400px]:hidden"> services for your events
       </h2>
-      <div class="flex flex-wrap justify-center gap-y-2 gap-x-1.5 mt-4 desktop:mt-6 desktop:grid desktop:grid-cols-4">
+      <div class="flex flex-wrap justify-center gap-y-2 gap-x-1.5 mt-4 desktop:grid desktop:grid-cols-4">
         <HomeServicesCard
           title="Caterings"
           description="In the new era of technology we look in the future with certainty for life."
@@ -117,11 +117,7 @@
         </div>
       </div>
     </section>
-    <section class="home-section">
-      <h2 class="h2 text-center">
-        What Our Customers Say
-      </h2>
-    </section>
+    <CustomerReview class="home-section" />
   </main>
 </template>
 
@@ -137,6 +133,7 @@ import AppButton from '@/components/AppButton.vue';
 import HomeMenuCard from '@/components/HomeMenuCard.vue';
 import AboutDescription from '@/components/AboutDescription.vue';
 import HomeServicesCard from '@/components/HomeServicesCard.vue';
+import CustomerReview from '@/components/CustomerReview.vue';
 </script>
 
 <style scoped>
