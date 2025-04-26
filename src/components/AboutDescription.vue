@@ -3,8 +3,8 @@
     <div class="flex w-fit pb-6 pr-1 tablet:pb-3 tablet:pr-3 relative desktop:shrink-0">
       <img
         class="w-full max-desktop:max-w-[30rem]"
-        src="/images/home-about.webp"
         alt="About us"
+        :src="image || '/images/about-description.webp'"
       >
       <div class="
         max-w-[25rem] p-2 bg-neutral-6 text-light rounded-xl
@@ -57,4 +57,8 @@
 import IconPhone from '@/assets/icons/Phone.svg';
 import IconMail from '@/assets/icons/Mail.svg';
 import IconLocation from '@/assets/icons/Location.svg';
+
+defineProps<{
+  image?: string;
+}>();
 </script>

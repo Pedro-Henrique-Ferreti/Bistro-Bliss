@@ -21,7 +21,7 @@
         />
       </div>
     </section>
-    <section class="home-section">
+    <section class="page-section">
       <h2 class="h2 text-center">
         Browse Our Menu
       </h2>
@@ -49,7 +49,10 @@
       </div>
     </section>
     <section class="bg-neutral-1">
-      <AboutDescription class="home-section">
+      <AboutDescription
+        class="page-section"
+        image="/images/home-about.webp"
+      >
         <AppButton
           variant="outline"
           label="More About Us"
@@ -57,7 +60,7 @@
         />
       </AboutDescription>
     </section>
-    <section class="home-section">
+    <section class="page-section">
       <h2 class="h2">
         We also offer unique <br class="max-[400px]:hidden"> services for your events
       </h2>
@@ -85,7 +88,7 @@
       </div>
     </section>
     <section class="bg-neutral-1">
-      <div class="home-section flex flex-col-reverse items-center gap-3 desktop:flex-row desktop:gap-6">
+      <div class="page-section flex flex-col-reverse items-center gap-3 desktop:flex-row desktop:gap-6">
         <img
           class="w-full max-desktop:max-w-[30rem]"
           src="/images/delivery.webp"
@@ -121,9 +124,9 @@
         </div>
       </div>
     </section>
-    <CustomerReview class="home-section" />
+    <CustomerReview class="page-section" />
     <section class="bg-neutral-1">
-      <div class="home-section">
+      <div class="page-section">
         <header class="flex flex-wrap gap-2 items-center justify-between mb-4">
           <h2 class="h2">
             Our Blog & Articles
@@ -172,11 +175,3 @@ const HOME_ARTICLES = [
   ARTICLE_PREVIEW_LIST[4],
 ] as const;
 </script>
-
-<style scoped>
-@reference '@/assets/css/main.css';
-
-.home-section {
-  @apply container-md py-[4rem] desktop:py-[7.5rem];
-}
-</style>
