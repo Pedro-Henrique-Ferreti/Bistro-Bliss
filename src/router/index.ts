@@ -20,8 +20,13 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: '/pages',
-      name: 'pages',
+      path: '/blog',
+      name: 'blog',
+      component: HomeView,
+    },
+    {
+      path: '/blog/:postId',
+      name: 'blog-post',
       component: HomeView,
     },
     {

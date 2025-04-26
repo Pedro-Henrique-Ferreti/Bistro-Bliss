@@ -23,8 +23,8 @@
               :to="{ name: 'menu' }"
             />
             <TheHeaderNavItem
-              name="Pages"
-              :to="{ name: 'pages' }"
+              name="Blog"
+              :to="{ name: 'blog' }"
             />
             <TheHeaderNavItem
               name="Contact"

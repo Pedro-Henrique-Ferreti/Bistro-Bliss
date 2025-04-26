@@ -124,7 +124,7 @@
           <h2 class="h2">
             Our Blog & Articles
           </h2>
-          <AppButton :to="{ name: 'pages' }">
+          <AppButton :to="{ name: 'blog' }">
             Read All Articles
           </AppButton>
         </header>
