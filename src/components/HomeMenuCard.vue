@@ -13,6 +13,7 @@
       class="mt-2"
       variant="text"
       label="Explore Menu"
+      :to="{ name: 'menu' }"
     />
   </div>
 </template>

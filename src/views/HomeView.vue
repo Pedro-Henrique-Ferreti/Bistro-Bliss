@@ -11,10 +11,14 @@
         Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.
       </p>
       <div class="flex flex-wrap justify-center gap-1 mt-[2.5rem]">
-        <AppButton>Book A Table</AppButton>
-        <AppButton variant="outline">
-          Explore Menu
+        <AppButton :to="{ name: 'book-table' }">
+          Book A Table
         </AppButton>
+        <AppButton
+          variant="outline"
+          label="Explore Menu"
+          :to="{ name: 'menu' }"
+        />
       </div>
     </section>
     <section class="home-section">

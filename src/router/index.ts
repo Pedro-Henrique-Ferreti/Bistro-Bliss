@@ -34,6 +34,11 @@ const router = createRouter({
       name: 'contact',
       component: HomeView,
     },
+    {
+      path: '/book-a-table',
+      name: 'book-table',
+      component: HomeView,
+    },
   ],
 });
 
