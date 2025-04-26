@@ -18,34 +18,34 @@
         </BaseButton>
       </div>
       <div class="max-tablet:hidden flex items-center gap-[0.25rem]">
-        <BaseButton
-          class="w-[1.75rem] h-[1.75rem] grid place-items-center rounded-full bg-neutral-1/12 hover:bg-neutral-1/50 transition-colors"
+        <SocialMediaButton
+          color="neutral"
+          size="small"
           aria-label="Twitter"
           to="https://x.com"
-        >
-          <IconTwitter class="fill-white" />
-        </BaseButton>
-        <BaseButton
-          class="w-[1.75rem] h-[1.75rem] grid place-items-center rounded-full bg-neutral-1/12 hover:bg-neutral-1/50 transition-colors"
+          :icon="IconTwitter"
+        />
+        <SocialMediaButton
+          color="neutral"
+          size="small"
           aria-label="Facebook"
           to="https://facebook.com"
-        >
-          <IconFacebook class="fill-white" />
-        </BaseButton>
-        <BaseButton
-          class="w-[1.75rem] h-[1.75rem] grid place-items-center rounded-full bg-neutral-1/12 hover:bg-neutral-1/50 transition-colors"
+          :icon="IconFacebook"
+        />
+        <SocialMediaButton
+          color="neutral"
+          size="small"
           aria-label="Instagram"
           to="https://instagram.com"
-        >
-          <IconInstagram class="fill-white" />
-        </BaseButton>
-        <BaseButton
-          class="w-[1.75rem] h-[1.75rem] grid place-items-center rounded-full bg-neutral-1/12 hover:bg-neutral-1/50 transition-colors"
+          :icon="IconInstagram"
+        />
+        <SocialMediaButton
+          color="neutral"
+          size="small"
           aria-label="GitHub"
           to="https://github.com"
-        >
-          <IconGitHub class="fill-white" />
-        </BaseButton>
+          :icon="IconGitHub"
+        />
       </div>
     </div>
   </div>
@@ -59,4 +59,5 @@ import IconInstagram from '@/assets/icons/Instagram.svg';
 import IconFacebook from '@/assets/icons/Facebook.svg';
 import IconGitHub from '@/assets/icons/GitHub.svg';
 import BaseButton from './BaseButton.vue';
+import SocialMediaButton from './SocialMediaButton.vue';
 </script>

@@ -4,7 +4,7 @@
     :to="{ name: 'home' }"
   >
     <component
-      :is="theme === 'light' ? IconLogoWhite : IconLogo"
+      :is="variant === 'light' ? IconLogoWhite : IconLogo"
       class="w-full h-full"
     />
   </RouterLink>
@@ -15,6 +15,6 @@ import IconLogo from '@/assets/icons/Logo.svg';
 import IconLogoWhite from '@/assets/icons/LogoWhite.svg';
 
 defineProps<{
-  theme?: 'light' | 'dark';
+  variant?: 'light' | 'dark';
 }>();
 </script>

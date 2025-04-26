@@ -1,6 +1,6 @@
 <template>
   <RouterLink
-    class="flex flex-col bg-white border border-neutral-1 rounded-xl shadow-card"
+    class="flex flex-col bg-white border border-neutral-1 rounded-xl shadow-card hover:scale-[102%] transition-transform"
     :to="{ name: 'blog-post', params: { postId: article.id } }"
   >
     <div
