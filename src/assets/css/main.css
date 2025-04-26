@@ -45,11 +45,13 @@
 
   /* Shadows */
   --shadow-button: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  --shadow-card: 0 2.98px 59.57px 0 rgba(0, 0, 0, 0.08);
 }
 
 @theme inline {
   --color-dark: var(--color-neutral-5);
   --color-dark-400: var(--color-neutral-4);
+  --color-dark-300: var(--color-neutral-3);
   --color-light: var(--color-neutral-1);
   --color-light-400: var(--color-white);
 }

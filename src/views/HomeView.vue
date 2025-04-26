@@ -118,10 +118,34 @@
       </div>
     </section>
     <CustomerReview class="home-section" />
+    <section class="bg-neutral-1">
+      <div class="home-section">
+        <header class="flex flex-wrap gap-2 items-center justify-between mb-4">
+          <h2 class="h2">
+            Our Blog & Articles
+          </h2>
+          <AppButton :to="{ name: 'pages' }">
+            Read All Articles
+          </AppButton>
+        </header>
+        <div class="
+          grid gap-1.5 grid-cols-[repeat(auto-fill,minmax(20rem,1fr))] desktop:grid-cols-4 desktop-grid-rows-2
+        ">
+          <ArticlePreview
+            v-for="(article, index) in HOME_ARTICLES"
+            class="desktop:first:col-span-2 desktop:first:row-span-2"
+            :key="article.id"
+            :article="article"
+            :show-description="index === 0"
+          />
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
 <script setup lang="ts">
+import { ARTICLE_PREVIEW_LIST } from '@/constants/articles';
 import IconTea from '@/assets/icons/Tea.svg';
 import IconCakeSlice from '@/assets/icons/CakeSlice.svg';
 import IconDrink from '@/assets/icons/Drink.svg';
@@ -134,6 +158,15 @@ import HomeMenuCard from '@/components/HomeMenuCard.vue';
 import AboutDescription from '@/components/AboutDescription.vue';
 import HomeServicesCard from '@/components/HomeServicesCard.vue';
 import CustomerReview from '@/components/CustomerReview.vue';
+import ArticlePreview from '@/components/ArticlePreview.vue';
+
+const HOME_ARTICLES = [
+  ARTICLE_PREVIEW_LIST[0],
+  ARTICLE_PREVIEW_LIST[1],
+  ARTICLE_PREVIEW_LIST[2],
+  ARTICLE_PREVIEW_LIST[3],
+  ARTICLE_PREVIEW_LIST[4],
+] as const;
 </script>
 
 <style scoped>
