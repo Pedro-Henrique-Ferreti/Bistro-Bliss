@@ -3,7 +3,7 @@
     class="grid place-items-center rounded-full transition-colors"
     :class="[
       size === 'small' ? 'w-[1.75rem] h-[1.75rem]' : 'w-[2.25rem] h-[2.25rem]',
-      color === 'primary' ? 'bg-primary hover:bg-primary-1/50' : 'bg-neutral-1/12 hover:bg-neutral-1/50',
+      color === 'primary' ? 'bg-primary hover:bg-primary/75' : 'bg-neutral-1/12 hover:bg-neutral-1/50',
     ]"
     :to="to"
   >

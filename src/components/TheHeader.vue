@@ -35,6 +35,7 @@
             variant="outline"
             size="small"
             label="Book A Table"
+            :to="{ name: 'book-table' }"
           />
         </nav>
         <BaseButton

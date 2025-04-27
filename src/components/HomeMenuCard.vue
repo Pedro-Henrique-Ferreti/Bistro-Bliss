@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center py-2.5 px-2 border border-neutral-2 rounded-xl text-center">
+  <div class="card flex flex-col items-center py-2.5 px-2 text-center">
     <div class="grid place-items-center w-[6.25rem] h-[6.25rem] rounded-full bg-secondary/7 text-neutral-6">
       <component :is="icon" />
     </div>

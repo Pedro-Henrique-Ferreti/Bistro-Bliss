@@ -37,19 +37,34 @@
           Pages
         </span>
         <nav class="grid gap-[1.25rem] mt-2 text-neutral-2">
-          <RouterLink :to="{ name: 'home' }">
+          <RouterLink
+            class="hover:underline"
+            :to="{ name: 'home' }"
+          >
             Home
           </RouterLink>
-          <RouterLink :to="{ name: 'about' }">
+          <RouterLink
+            class="hover:underline"
+            :to="{ name: 'about' }
+          ">
             About
           </RouterLink>
-          <RouterLink :to="{ name: 'menu' }">
+          <RouterLink
+            class="hover:underline"
+            :to="{ name: 'menu' }"
+          >
             Menu
           </RouterLink>
-          <RouterLink :to="{ name: 'blog' }">
+          <RouterLink
+            class="hover:underline"
+            :to="{ name: 'blog' }"
+          >
             Blog
           </RouterLink>
-          <RouterLink :to="{ name: 'contact' }">
+          <RouterLink
+            class="hover:underline"
+            :to="{ name: 'contact'}"
+          >
             Contact
           </RouterLink>
         </nav>
@@ -83,7 +98,13 @@
       </div>
     </div>
     <p class="container-md text-center text-neutral-8 border-t border-neutral-4 pt-2 mt-2.5">
-      Copyright © 2025 Pedro Ferreti. All Rights Reserved
+      Copyright © 2025
+      <BaseButton
+        class="hover:underline"
+        to="https://www.linkedin.com/in/pedro-henrique-ferreti-de-souza-7921aa174/"
+      >
+        <span>Pedro Ferreti</span>
+      </BaseButton>. All Rights Reserved
     </p>
   </footer>
 </template>

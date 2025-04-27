@@ -20,7 +20,7 @@
           </li>
           <li class="flex items-center gap-[1.25rem]">
             <IconMail class="w-auto h-1.5" />
-            happytummy@restaurant.com
+            yummy@bistrobliss
           </li>
           <li class="flex gap-[1.25rem]">
             <IconLocation class="w-auto h-1.5 shrink-0" />
