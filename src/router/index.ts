@@ -23,6 +23,9 @@ const router = createRouter({
       path: '/menu',
       name: 'menu',
       component: MenuView,
+      meta: {
+        header: { transparentBackground: true },
+      },
     },
     {
       path: '/blog',
