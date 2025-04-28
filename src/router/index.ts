@@ -4,6 +4,7 @@ import AboutView from '@/views/AboutView.vue';
 import MenuView from '@/views/MenuView.vue';
 import BlogView from '@/views/BlogView.vue';
 import BookTableView from '@/views/BookTableView.vue';
+import ContactView from '@/views/ContactView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -42,7 +43,7 @@ const router = createRouter({
     {
       path: '/contact',
       name: 'contact',
-      component: HomeView,
+      component: ContactView,
     },
     {
       path: '/book-a-table',

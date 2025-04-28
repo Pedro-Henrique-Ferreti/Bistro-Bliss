@@ -118,7 +118,7 @@ watch(() => props.mask, () => {
   ;
 
   &.base-input--textarea {
-    @apply py-1.5 min-h-4 rounded-2xl;
+    @apply py-1.5 min-h-10 rounded-2xl;
   }
 }
 </style>
