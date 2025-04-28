@@ -11,6 +11,14 @@ export default defineConfigWithVueTs(
   globalIgnores(['**/dist/**', '**/dist-ssr/**', '**/coverage/**']),
   vueTsConfigs.recommendedTypeChecked,
   vueTsConfigs.stylisticTypeChecked,
+  {
+    languageOptions: {
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
+      },
+    },
+  },
   stylistic.configs.customize({
     semi: true,
   }),
