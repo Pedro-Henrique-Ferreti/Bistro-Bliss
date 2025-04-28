@@ -8,25 +8,40 @@
         We consider all the drivers of change gives you the components you need to change to create a truly happens.
       </p>
     </header>
-    <section class="mt-[4.5rem]">
-      <div class="container-base flex justify-center">
+    <section class="mt-[4.5rem] pt-20 relative lg-tablet:pt-15">
+      <div class="container-base flex justify-center absolute top-0">
         <form
-          class="grid gap-1.5 w-full max-w-[50.75rem] p-2.5 bg-white rounded-2xl shadow-card"
+          class="grid gap-1.5 w-full max-w-[50.75rem] p-2.5 max-tablet:p-1.5 bg-white rounded-2xl shadow-card min-lg-tablet:grid-cols-2"
           @submit.prevent
         >
           <AppInput
-            label="name"
+            label="Date"
+          />
+          <AppInput
+            label="Time"
             placeholder="Your name"
           />
-          <AppButton class="w-full">
+          <AppInput
+            label="Name"
+            placeholder="Enter your name"
+          />
+          <AppInput
+            label="Phone"
+            placeholder="x-xxx-xxx-xxxx"
+            mask="0-000-000-0000"
+          />
+          <AppInput
+            class="lg-tablet:col-span-2"
+            label="How many people are coming?"
+          />
+          <AppButton class="w-full lg-tablet:col-span-2">
             Book A Table
           </AppButton>
         </form>
       </div>
-      <div class="
-      bg-neutral-1 bg-[url('/images/location-map.webp')] bg-cover bg-center aspect-[4/5]
-        tablet:aspect-square lg-tablet:aspect-[3/2] desktop:aspect-video min-[1500px]:aspect-[16/7]
-      " />
+      <div class="bg-neutral-1 bg-[url('/images/location-map.webp')] bg-cover bg-center aspect-[4/5]
+        tablet:aspect-square lg-tablet:aspect-[4.75/3] desktop:aspect-[16/8] min-[1500px]:aspect-[16/7]"
+      />
     </section>
   </main>
 </template>
