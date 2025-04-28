@@ -67,6 +67,12 @@
           >
             Contact
           </RouterLink>
+          <RouterLink
+            class="hover:underline"
+            :to="{ name: 'book-table'}"
+          >
+            Book A Table
+          </RouterLink>
         </nav>
       </div>
       <div class="w-full max-w-[25rem]">

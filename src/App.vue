@@ -1,7 +1,9 @@
 <template>
-  <TheHeader />
-  <RouterView />
-  <TheFooter />
+  <div>
+    <TheHeader />
+    <RouterView />
+  </div>
+  <TheFooter class="mt-auto" />
 </template>
 
 <script setup lang="ts">
