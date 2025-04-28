@@ -139,7 +139,7 @@
         </header>
         <div
           class="
-          grid gap-1.5 grid-cols-[repeat(auto-fill,minmax(20rem,1fr))] desktop:grid-cols-4 desktop-grid-rows-2
+          grid gap-1.5 grid-cols-[repeat(auto-fill,minmax(16rem,1fr))] desktop:grid-cols-4 desktop-grid-rows-2
         "
         >
           <ArticlePreview

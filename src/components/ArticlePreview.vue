@@ -9,7 +9,7 @@
     />
     <div class="px-1.5 pt-[1.75rem] pb-1">
       <span class="text-dark-300 text-[0.875rem] font-medium">
-        {{ format(new Date(article.createdAt), 'MMMM dd, yyyy') }}
+        {{ format(new Date(article.createdAt), 'MMMM d, yyyy') }}
       </span>
       <span class="block mt-[0.75rem] text-[1.25rem] font-medium">
         {{ article.title }}
