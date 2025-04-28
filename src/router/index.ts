@@ -1,9 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '@/views/HomeView.vue';
 import AboutView from '@/views/AboutView.vue';
+import MenuView from '@/views/MenuView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  scrollBehavior() {
+    return { left: 0, top: 0 };
+  },
   routes: [
     {
       path: '/',
@@ -18,7 +22,7 @@ const router = createRouter({
     {
       path: '/menu',
       name: 'menu',
-      component: HomeView,
+      component: MenuView,
     },
     {
       path: '/blog',
@@ -39,6 +43,10 @@ const router = createRouter({
       path: '/book-a-table',
       name: 'book-table',
       component: HomeView,
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      redirect: { name: 'home', params: {} },
     },
   ],
 });
