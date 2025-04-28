@@ -40,7 +40,7 @@ withDefaults(defineProps<{
 @reference '@/assets/css/main.css';
 
 .button {
-  @apply inline-flex items-center font-semibold text-base cursor-pointer;
+  @apply inline-flex justify-center items-center font-semibold text-base cursor-pointer;
 }
 .button:not([data-variant="text"]) {
   @apply h-4 px-2 rounded-full;
