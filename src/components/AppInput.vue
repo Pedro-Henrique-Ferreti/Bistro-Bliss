@@ -15,9 +15,9 @@
     </label>
     <BaseInput
       v-bind="$attrs"
+      v-model="inputValue"
       :id="elementId"
       ref="input"
-      v-model="inputValue"
       class="app-input__input"
       :disabled="disabled"
       :aria-label="label ? null : ariaLabel"
@@ -26,8 +26,8 @@
     />
     <small
       v-if="validationMessage"
-      class="text-[0.75rem] mt-[0.25rem]"
       v-text="validationMessage"
+      class="text-[0.75rem] mt-[0.25rem]"
     />
     <div class="text-dark-400 text-[0.75rem] mt-[0.25rem] empty:hidden">
       <slot name="support-text">

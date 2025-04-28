@@ -1,8 +1,8 @@
 <template>
   <textarea
     v-if="type === 'textarea'"
-    :id="id || elementId"
     v-model="inputValue"
+    :id="id || elementId"
     class="base-input base-input--textarea"
     :disabled="disabled"
     @change="handleChange(($event.target as HTMLInputElement).value)"
@@ -18,8 +18,8 @@
   >
   <input
     v-else
-    :id="id || elementId"
     v-model="inputValue"
+    :id="id || elementId"
     class="base-input"
     :type="type"
     :disabled="disabled"

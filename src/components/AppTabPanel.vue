@@ -15,8 +15,8 @@
       >
         <label :for="tab.elementId || tab.id">
           <input
-            :id="tab.elementId || tab.id"
             v-model="activeTabId"
+            :id="tab.elementId || tab.id"
             class="w-0 h-0 opacity-0 absolute"
             type="radio"
             :name="tab.name"
