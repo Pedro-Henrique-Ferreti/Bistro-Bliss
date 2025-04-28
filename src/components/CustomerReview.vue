@@ -6,8 +6,8 @@
     <div class="grid gap-1.5 mt-4 tablet-landscape:grid-cols-3">
       <div
         v-for="(review, index) in CustomerReviews"
-        class="bg-neutral-1 rounded-xl p-2 pt-[2.75rem]"
         :key="index"
+        class="bg-neutral-1 rounded-xl p-2 pt-[2.75rem]"
       >
         <h3 class="h3 mb-1.5 text-primary">
           “{{ review.title }}”

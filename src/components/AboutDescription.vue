@@ -6,10 +6,12 @@
         alt="About us"
         :src="image || '/images/about-description.webp'"
       >
-      <div class="
+      <div
+        class="
         max-w-[25rem] p-2 bg-neutral-6 text-light rounded-xl
         absolute max-tablet:translate-x-1 bottom-0 right-0.5 tablet:right-0 desktop:p-3
-      ">
+      "
+      >
         <span class="font-bold text-[1.5rem] text-light-400">
           Come and visit us
         </span>

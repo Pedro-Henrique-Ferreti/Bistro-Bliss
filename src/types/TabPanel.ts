@@ -1,8 +1,6 @@
-export interface TabPanel {
-  [key: string]: TabPanelTab;
-}
+export type TabPanel = Record<string, TabPanelTab>;
 
-export type TabPanelTab<T = string> = {
+export interface TabPanelTab<T = string> {
   id: T;
   elementId?: string;
   name?: string;

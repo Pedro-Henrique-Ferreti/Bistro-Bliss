@@ -16,8 +16,8 @@
       </span>
       <p
         v-if="showDescription && article.description"
-        v-text="article.description"
         class="hidden desktop:block text-dark-400 mt-[0.75rem]"
+        v-text="article.description"
       />
     </div>
   </RouterLink>

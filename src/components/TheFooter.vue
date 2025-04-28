@@ -45,8 +45,8 @@
           </RouterLink>
           <RouterLink
             class="hover:underline"
-            :to="{ name: 'about' }
-          ">
+            :to="{ name: 'about' }"
+          >
             About
           </RouterLink>
           <RouterLink

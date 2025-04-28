@@ -8,8 +8,8 @@
       <div class="container-md flex items-center justify-between">
         <AppLogo class="w-[11rem] desktop:w-[18rem]" />
         <nav
-          class="header-nav"
           id="header-nav"
+          class="header-nav"
           :data-open="menuIsOpen"
         >
           <ul class="flex gap-1 max-desktop:flex-col max-desktop:mb-[0.75rem] desktop:gap-[0.75rem]">

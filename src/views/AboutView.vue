@@ -11,20 +11,24 @@
           bg-[url('/images/about-background.webp')] bg-cover bg-center relative group
           before:absolute before:inset-0 before:bg-neutral-5/84"
       >
-        <div class="
+        <div
+          class="
           w-[6.5rem] h-[6.5rem] grid place-items-center text-primary bg-white rounded-full z-[1]
           group-hover:scale-[105%] transition-transform
-        ">
+        "
+        >
           <IconPlay class="w-auto h-1.5 translate-x-[0.25rem]" />
         </div>
         <h2 class="h2 text-white z-[1]">
           Feel the authentic & <br class="max-[380px]:hidden"> original taste from us
         </h2>
       </BaseButton>
-      <div class="
+      <div
+        class="
         grid gap-3 justify-center py-4 px-(--spacing-screen-padding) desktop:pb-6
         lg-tablet:grid-cols-2 lg-tablet-landscape:grid-cols-[repeat(3,minmax(0,22.875rem))] desktop:gap-[5.5rem]
-      ">
+      "
+      >
         <div class="flex gap-1.5">
           <IconRestaurantMenu class="shrink-0 w-auto h-3" />
           <div class="text-dark-400">

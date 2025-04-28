@@ -1,9 +1,11 @@
 <template>
   <main>
-    <section class="
+    <section
+      class="
       flex justify-center items-center flex-col h-[35rem] p-(--spacing-screen-padding) text-center
       bg-[url('/images/hero-background.webp')] bg-cover bg-center desktop:h-[calc(100vh-9.25rem)]
-    ">
+    "
+    >
       <h1 class="h1">
         Best food for <br> your taste
       </h1>
@@ -135,13 +137,15 @@
             Read All Articles
           </AppButton>
         </header>
-        <div class="
+        <div
+          class="
           grid gap-1.5 grid-cols-[repeat(auto-fill,minmax(20rem,1fr))] desktop:grid-cols-4 desktop-grid-rows-2
-        ">
+        "
+        >
           <ArticlePreview
             v-for="(article, index) in HOME_ARTICLES"
-            class="desktop:first:col-span-2 desktop:first:row-span-2"
             :key="article.id"
+            class="desktop:first:col-span-2 desktop:first:row-span-2"
             :article="article"
             :show-description="index === 0"
           />

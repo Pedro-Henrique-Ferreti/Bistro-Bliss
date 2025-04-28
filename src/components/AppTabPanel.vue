@@ -10,13 +10,13 @@
     >
       <swiper-slide
         v-for="tab in items"
-        class="w-max last:mr-0!"
         :key="tab.id"
+        class="w-max last:mr-0!"
       >
         <label :for="tab.elementId || tab.id">
           <input
-            v-model="activeTabId"
             :id="tab.elementId || tab.id"
+            v-model="activeTabId"
             class="w-0 h-0 opacity-0 absolute"
             type="radio"
             :name="tab.name"

@@ -8,9 +8,9 @@
     :to="to"
   >
     <component
+      :is="icon"
       class="fill-white"
       :class="size === 'small' ? 'w-[0.8125rem] h-[0.8125rem]' : 'w-1 h-1'"
-      :is="icon"
     />
   </BaseButton>
 </template>

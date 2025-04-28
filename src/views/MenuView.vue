@@ -35,10 +35,10 @@
         <div class="flex flex-wrap justify-center gap-x-1 gap-y-1.5 desktop:gap-x-1.5 desktop:gap-y-2.5 desktop:max-w-[51.75rem]">
           <div
             v-for="(logo, index) in APP_LOGOS"
+            :key="index"
             class="
               flex justify-center items-center w-[13.75rem] h-[5.5rem] rounded-xl bg-white shadow-card
               desktop:nth-4:w-[16.25rem] desktop:nth-5:w-[16.25rem] desktop:nth-6:w-[16.25rem]"
-            :key="index"
           >
             <component :is="logo" />
           </div>
