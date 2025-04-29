@@ -41,7 +41,8 @@
           </AppButton>
         </form>
       </div>
-      <div class="bg-neutral-1 bg-[url('/images/location-map.webp')] bg-cover bg-center aspect-[4/5]
+      <div
+        class="bg-neutral-1 bg-[url('/images/location-map.webp')] bg-cover bg-center aspect-[4/5]
         tablet:aspect-square lg-tablet:aspect-[4.75/3] desktop:aspect-[16/8] min-[1500px]:aspect-[16/7]"
       />
     </section>
