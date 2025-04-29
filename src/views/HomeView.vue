@@ -69,22 +69,22 @@
       <div class="flex flex-wrap justify-center gap-y-2 gap-x-1.5 mt-4 desktop:grid desktop:grid-cols-4">
         <HomeServicesCard
           title="Caterings"
-          description="In the new era of technology we look in the future with certainty for life."
+          description="Customizable menus and professional service to bring the Bistro Bliss experience to your gathering—big or small."
           image="/images/services-catering.webp"
         />
         <HomeServicesCard
           title="Birthdays"
-          description="In the new era of technology we look in the future with certainty for life."
+          description="Celebrate your special day with delicious food, festive vibes, and thoughtful touches tailored just for you."
           image="/images/services-birthday.webp"
         />
         <HomeServicesCard
           title="Weddings"
-          description="In the new era of technology we look in the future with certainty for life."
+          description="Elegant dining and seamless service to make your big day truly unforgettable—for you and your guests."
           image="/images/services-wedding.webp"
         />
         <HomeServicesCard
           title="Events"
-          description="In the new era of technology we look in the future with certainty for life."
+          description="From corporate meetings to private parties, we provide the perfect setting and flavors to match any occasion."
           image="/images/services-events.webp"
         />
       </div>
@@ -101,7 +101,7 @@
             Fastest Food Delivery in City
           </h2>
           <p class="text-dark-400">
-            Our visual designer lets you quickly and of drag a down your way to customapps for both keep desktop.
+            Get your favorite meals delivered hot and fresh—faster than anyone else in the city.
           </p>
           <ul class="grid gap-[1.25rem] mt-3 text-[1.25rem] font-bold">
             <li class="flex gap-[1.25rem]">

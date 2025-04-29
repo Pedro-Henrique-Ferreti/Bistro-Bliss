@@ -7,7 +7,7 @@
           variant="light"
         />
         <p class="text-neutral-8 my-2">
-          In the new era of technology we look a in the future with certainty and pride to for our company and our clients.
+          In the new era of technology we look to the future with certainty and pride to for our company and our clients.
         </p>
         <div class="flex flex-wrap gap-[0.75rem]">
           <SocialMediaButton
@@ -110,7 +110,13 @@
         to="https://www.linkedin.com/in/pedro-henrique-ferreti-de-souza-7921aa174/"
       >
         <span>Pedro Ferreti</span>
-      </BaseButton>. All Rights Reserved
+      </BaseButton>. Design by
+      <BaseButton
+        class="hover:underline"
+        to="https://www.figma.com/@jaydeepkaila9"
+      >
+        <span>Jaydeep Kaila</span>
+      </BaseButton>.
     </p>
   </footer>
 </template>

@@ -5,7 +5,7 @@
         Contact Us
       </h1>
       <p class="text-dark-400 text-[1.125rem] max-w-[34rem] mx-auto mt-[1.25rem]">
-        We consider all the drivers of change gives you the components you need to change to create a truly happens.
+        We'd love to hear from you! Reach out with any questions, feedback, or special requests.
       </p>
     </header>
     <section class="mt-[4.5rem] pt-20 relative lg-tablet:pt-15">

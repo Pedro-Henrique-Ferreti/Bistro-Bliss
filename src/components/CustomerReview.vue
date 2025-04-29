@@ -52,7 +52,7 @@ interface CustomerReview {
 const CustomerReviews: CustomerReview[] = [
   {
     title: 'The best restaurant',
-    reviewText: 'Last night, we dined at place and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted with warm smiles.',
+    reviewText: 'Last night, we dined at Bistro Bliss and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted with warm smiles.',
     customer: {
       name: 'Sophire Robson',
       city: 'Los Angeles',
@@ -62,7 +62,7 @@ const CustomerReviews: CustomerReview[] = [
   },
   {
     title: 'Simply delicious',
-    reviewText: 'Place exceeded my expectations on all fronts. The ambiance was cozy and relaxed, making it a perfect venue for our anniversary dinner. Each dish was prepared and beautifully presented.',
+    reviewText: 'Bistro Bliss exceeded my expectations on all fronts. The ambiance was cozy and relaxed, making it a perfect venue for our anniversary dinner. Each dish was prepared and beautifully presented.',
     customer: {
       name: 'Matt Cannon',
       city: 'San Diego',
@@ -72,7 +72,7 @@ const CustomerReviews: CustomerReview[] = [
   },
   {
     title: 'One of a kind restaurant',
-    reviewText: 'The culinary experience at place is first to none. The atmosphere is vibrant, the food - nothing short of extraordinary. The food was the highlight of our evening. Highly recommended.',
+    reviewText: 'The culinary experience at Bistro Bliss is first to none. The atmosphere is vibrant, the food - nothing short of extraordinary. The food was the highlight of our evening. Highly recommended.',
     customer: {
       name: 'Andy Smith',
       city: 'San Francisco',

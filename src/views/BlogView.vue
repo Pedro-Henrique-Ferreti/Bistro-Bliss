@@ -5,7 +5,7 @@
         Our Blog & Articles
       </h1>
       <p class="text-dark-400 text-[1.125rem] max-w-[39.5rem] mx-auto mt-[1.25rem]">
-        We consider all the drivers of change gives you the components you need to change to create a truly happens.
+        Stay updated with the latest food trends, cooking tips, and behind-the-scenes stories from Bistro Bliss.
       </p>
       <div class="grid gap-1.5 grid-cols-[repeat(auto-fill,minmax(16rem,1fr))] mt-[4.5rem] desktop:grid-cols-4 tablet:gap-y-2">
         <ArticlePreview

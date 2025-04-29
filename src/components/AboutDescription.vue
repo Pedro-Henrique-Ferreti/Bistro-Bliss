@@ -26,7 +26,7 @@
           </li>
           <li class="flex gap-[1.25rem]">
             <IconLocation class="w-auto h-1.5 shrink-0" />
-            837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles
+            123 Bridge Street, Nowhere Land, LA 12345, United States
           </li>
         </ul>
       </div>
@@ -42,8 +42,10 @@
       </p>
       <p class="text-dark-400">
         At Bistro Bliss, we believe that dining is not just about food, but also about the overall
-        experience. Our staff, renowned for their warmth and dedication, strives to make
-        every visit an unforgettable event.
+        experience. Our staff, renowned for their warmth and dedication, strives to make every visit
+        an unforgettable event. From the carefully curated menu to the cozy ambiance, every detail
+        is designed to delight your senses. Whether you're celebrating a special occasion or simply
+        enjoying a night out, we're here to make it exceptional.
       </p>
       <div
         v-if="$slots['default']"

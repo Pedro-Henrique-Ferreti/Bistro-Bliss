@@ -1,19 +1,19 @@
 <template>
   <div class="bg-neutral-6">
-    <div class="container-md flex items-center max-tablet:justify-center justify-between h-[2.75rem] text-neutral-1">
-      <div class="flex items-center gap-1.5">
+    <div class="container-md flex items-center justify-between h-[2.75rem] text-neutral-1">
+      <div class="flex items-center gap-0.5 max-tablet:justify-between max-tablet:w-full tablet:gap-1.5">
         <BaseButton
           class="flex items-center gap-0.5 hover:underline"
           to="tel:14148570107"
         >
-          <IconPhone class="text-white" />
+          <IconPhone class="text-white max-lg-smartphone:hidden" />
           <span>(414) 857 - 0107</span>
         </BaseButton>
         <BaseButton
           class="flex items-center gap-0.5 hover:underline"
           to="mailto:yummy@bistrobliss"
         >
-          <IconMail class="text-white" />
+          <IconMail class="text-white max-lg-smartphone:hidden" />
           <span>yummy@bistrobliss</span>
         </BaseButton>
       </div>

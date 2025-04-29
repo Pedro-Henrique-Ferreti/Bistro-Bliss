@@ -5,7 +5,7 @@
         Our Menu
       </h1>
       <p class="max-w-[34.5rem] text-dark-400 text-[1.125rem] mx-auto mt-[1.25rem] mb-3">
-        We consider all the drivers of change gives you the components you need to change to create a truly happens.
+        Explore a diverse selection of delicious dishes, crafted with fresh ingredients and bold flavors.
       </p>
       <AppTabPanel
         v-model="selectedMenuType"
@@ -29,7 +29,7 @@
             You can order through apps
           </h2>
           <p class="text-dark-400">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit enim bibendum sed et aliquet aliquet risus tempor semper.
+            We're partnered with popular platforms like Uber Eats, DoorDash, and Grubhub so you can browse our menu, customize your order, and have it delivered straight to your door with just a few taps.
           </p>
         </div>
         <div class="flex flex-wrap justify-center gap-x-1 gap-y-1.5 desktop:gap-x-1.5 desktop:gap-y-2.5 desktop:max-w-[51.75rem]">

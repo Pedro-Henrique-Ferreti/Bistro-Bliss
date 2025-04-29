@@ -5,7 +5,7 @@
         Book A Table
       </h1>
       <p class="text-dark-400 text-[1.125rem] max-w-[34rem] mx-auto mt-[1.25rem]">
-        We consider all the drivers of change gives you the components you need to change to create a truly happens.
+        Reserve your spot today for a memorable dining experience—easy booking, guaranteed table.
       </p>
     </header>
     <section class="mt-[4.5rem] pt-20 relative lg-tablet:pt-15">
@@ -16,10 +16,11 @@
         >
           <AppInput
             label="Date"
+            type="date"
           />
           <AppInput
             label="Time"
-            placeholder="Your name"
+            type="time"
           />
           <AppInput
             label="Name"
@@ -33,6 +34,7 @@
           <AppInput
             class="lg-tablet:col-span-2"
             label="How many people are coming?"
+            placeholder="Ie, 3 people"
           />
           <AppButton class="w-full lg-tablet:col-span-2">
             Book A Table

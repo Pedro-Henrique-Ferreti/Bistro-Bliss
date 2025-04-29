@@ -35,7 +35,7 @@
             <h3 class="font-bold text-[1.25rem] mb-1 text-dark">
               Multi Cuisine
             </h3>
-            <p>In the new era of technology we look in the future with certainty life.</p>
+            <p>Simple, user-friendly ordering in just a few clicks — something delicious for every craving.</p>
           </div>
         </div>
         <div class="flex gap-1.5">
@@ -44,7 +44,7 @@
             <h3 class="font-bold text-[1.25rem] mb-1 text-dark">
               Easy To Order
             </h3>
-            <p>In the new era of technology we look in the future with certainty life.</p>
+            <p>Simple, user-friendly ordering in just a few clicks—no hassle, no wait.</p>
           </div>
         </div>
         <div class="flex gap-1.5">
@@ -53,7 +53,7 @@
             <h3 class="font-bold text-[1.25rem] mb-1 text-dark">
               Fast Delivery
             </h3>
-            <p>In the new era of technology we look in the future with certainty life.</p>
+            <p>Hot, fresh meals delivered to your door quickly and reliably every time.</p>
           </div>
         </div>
       </div>
