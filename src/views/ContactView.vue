@@ -47,7 +47,7 @@
               Call Us:
             </span>
             <span class="font-semibold text-[1.5rem] text-primary">
-              +1-234-567-8900
+              +1-414-857-0107
             </span>
           </div>
           <div class="flex flex-col gap-1.5">
