@@ -156,7 +156,7 @@
 </template>
 
 <script setup lang="ts">
-import { ARTICLE_PREVIEW_LIST } from '@/constants/articles';
+import { ARTICLE_LIST } from '@/constants/articles';
 import IconTea from '@/assets/icons/Tea.svg';
 import IconCakeSlice from '@/assets/icons/CakeSlice.svg';
 import IconDrink from '@/assets/icons/Drink.svg';
@@ -172,10 +172,10 @@ import CustomerReview from '@/components/CustomerReview.vue';
 import ArticlePreview from '@/components/ArticlePreview.vue';
 
 const HOME_ARTICLES = [
-  ARTICLE_PREVIEW_LIST[0],
-  ARTICLE_PREVIEW_LIST[1],
-  ARTICLE_PREVIEW_LIST[2],
-  ARTICLE_PREVIEW_LIST[3],
-  ARTICLE_PREVIEW_LIST[4],
+  ARTICLE_LIST[0],
+  ARTICLE_LIST[1],
+  ARTICLE_LIST[2],
+  ARTICLE_LIST[3],
+  ARTICLE_LIST[4],
 ] as const;
 </script>

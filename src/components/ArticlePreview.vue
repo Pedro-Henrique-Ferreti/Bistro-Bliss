@@ -1,7 +1,7 @@
 <template>
   <RouterLink
     class="flex flex-col bg-white border border-neutral-1 rounded-xl shadow-card hover:scale-[102%] transition-transform"
-    :to="{ name: 'blog-post', params: { postId: article.id } }"
+    :to="{ name: 'blog-article', params: { articleId: article.id } }"
   >
     <div
       class="w-full aspect-[3/2] rounded-t-xl bg-cover bg-center bg-neutral-2"
@@ -24,11 +24,11 @@
 </template>
 
 <script setup lang="ts">
-import type { ArticlePreview } from '@/types/Article';
+import type { Article } from '@/types/Article';
 import { format } from 'date-fns';
 
 defineProps<{
-  article: ArticlePreview;
+  article: Article;
   showDescription?: boolean;
 }>();
 </script>

@@ -28,6 +28,7 @@ export default defineConfigWithVueTs(
       'vue/block-order': ['error', {
         order: ['template', 'script', 'style'],
       }],
+      'vue/no-v-html': 'off',
       'vue/html-self-closing': 'error',
       'vue/attributes-order': ['error', {
         order: [

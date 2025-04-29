@@ -41,7 +41,7 @@
         culture, we aim to honor our local roots while infusing a global palate.
       </p>
       <p class="text-dark-400">
-        At place, we believe that dining is not just about food, but also about the overall
+        At Bistro Bliss, we believe that dining is not just about food, but also about the overall
         experience. Our staff, renowned for their warmth and dedication, strives to make
         every visit an unforgettable event.
       </p>

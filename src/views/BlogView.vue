@@ -20,10 +20,10 @@
 
 <script lang="ts" setup>
 import { isBefore } from 'date-fns';
-import { ARTICLE_PREVIEW_LIST } from '@/constants/articles';
+import { ARTICLE_LIST } from '@/constants/articles';
 import ArticlePreview from '@/components/ArticlePreview.vue';
 
-const articleList = [...ARTICLE_PREVIEW_LIST].sort((a, b) => (
+const articleList = [...ARTICLE_LIST].sort((a, b) => (
   isBefore(new Date(a.createdAt), new Date(b.createdAt)) ? 1 : -1
 ));
 </script>
