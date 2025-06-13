@@ -1,12 +1,16 @@
 <template>
   <RouterLink
-    class="flex flex-col bg-white border border-neutral-1 rounded-xl shadow-card hover:scale-[102%] transition-transform"
+    class="flex flex-col bg-white border border-neutral-1 rounded-xl shadow-card group"
     :to="{ name: 'blog-article', params: { articleId: article.id } }"
   >
-    <div
-      class="w-full aspect-[3/2] rounded-t-xl bg-cover bg-center bg-neutral-2"
-      :style="`background-image: url('${article.image}');`"
-    />
+    <div class="overflow-hidden rounded-t-xl aspect-[3/2]">
+      <img
+        class="w-full aspect-[inherit] group-hover:scale-[104%] transition-transform duration-300"
+        alt="Article image"
+        loading="lazy"
+        :src="article.image"
+      >
+    </div>
     <div class="px-1.5 pt-[1.75rem] pb-1">
       <span class="text-dark-300 text-[0.875rem] font-medium">
         {{ format(new Date(article.createdAt), 'MMMM d, yyyy') }}
