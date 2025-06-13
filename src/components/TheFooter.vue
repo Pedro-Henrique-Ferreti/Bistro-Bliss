@@ -81,25 +81,49 @@
         </span>
         <div class="grid gap-1 grid-cols-2 mt-2">
           <BaseButton
-            class="aspect-[2/1.75] rounded-xl bg-cover bg-center bg-neutral-2 hover:scale-[102%] transition-transform"
-            style="background-image: url('https://images.pexels.com/photos/1703272/pexels-photo-1703272.jpeg?auto=compress&cs=tinysrgb&w=600');"
+            class="overflow-hidden rounded-xl"
             to="https://instagram.com"
-          />
+          >
+            <img
+              class="aspect-[2/1.75] object-cover hover:scale-[104%] transition-transform duration-300"
+              src="https://images.pexels.com/photos/1703272/pexels-photo-1703272.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Instagram picture"
+              loading="lazy"
+            >
+          </BaseButton>
           <BaseButton
-            class="aspect-[2/1.75] rounded-xl bg-cover bg-center bg-neutral-2 hover:scale-[102%] transition-transform"
-            style="background-image: url('https://images.pexels.com/photos/1583891/pexels-photo-1583891.jpeg?auto=compress&cs=tinysrgb&w=600');"
+            class="overflow-hidden rounded-xl"
             to="https://instagram.com"
-          />
+          >
+            <img
+              class="aspect-[2/1.75] object-cover hover:scale-[104%] transition-transform duration-300"
+              src="https://images.pexels.com/photos/1583891/pexels-photo-1583891.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Instagram picture"
+              loading="lazy"
+            >
+          </BaseButton>
           <BaseButton
-            class="aspect-[2/1.75] rounded-xl bg-cover bg-center bg-neutral-2 hover:scale-[102%] transition-transform"
-            style="background-image: url('https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=600');"
+            class="overflow-hidden rounded-xl"
             to="https://instagram.com"
-          />
+          >
+            <img
+              class="aspect-[2/1.75] object-cover hover:scale-[104%] transition-transform duration-300"
+              src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Instagram picture"
+              loading="lazy"
+            >
+          </BaseButton>
           <BaseButton
-            class="aspect-[2/1.75] rounded-xl bg-cover bg-center bg-neutral-2 hover:scale-[102%] transition-transform"
-            style="background-image: url('https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600');"
+            class="overflow-hidden rounded-xl"
             to="https://instagram.com"
-          />
+          >
+            <img
+              class="aspect-[2/1.75] object-cover hover:scale-[104%] transition-transform duration-300"
+              src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Instagram picture"
+              loading="lazy"
+            >
+          </BaseButton>
         </div>
       </div>
     </div>
