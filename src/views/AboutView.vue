@@ -100,6 +100,7 @@
           class="max-w-[25rem] desktop:max-w-[34.5rem]"
           src="/images/about-history.webp"
           alt="Our history"
+          loading="lazy"
         >
       </div>
     </section>

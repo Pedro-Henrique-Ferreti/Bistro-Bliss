@@ -95,6 +95,7 @@
           class="w-full max-desktop:max-w-[30rem]"
           src="/images/delivery.webp"
           alt="City delivery"
+          loading="lazy"
         >
         <div>
           <h2 class="h2 mb-[1.25rem]">

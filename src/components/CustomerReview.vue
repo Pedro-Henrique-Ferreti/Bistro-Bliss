@@ -18,6 +18,7 @@
         <div class="flex items-center gap-[1.25rem] mt-2 pt-2 border-t border-neutral-2">
           <img
             class="w-[4.375rem] h-[4.375rem] rounded-full"
+            loading="lazy"
             :src="review.customer.profilePicture"
             :alt="review.customer.name"
           >

@@ -1,6 +1,7 @@
 <template>
   <div class="w-full max-w-[10rem] min-[500px]:max-w-[15rem] desktop:max-w-none">
     <img
+      loading="lazy"
       :src="image"
       :alt="title"
     >
