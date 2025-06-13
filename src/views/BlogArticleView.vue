@@ -1,7 +1,7 @@
 <template>
   <main>
     <section class="bg-neutral-1">
-      <article class="page-section container-sm">
+      <article class="page-section container-xs">
         <h1 class="h2 text-center mb-4">
           {{ article?.title }}
         </h1>
