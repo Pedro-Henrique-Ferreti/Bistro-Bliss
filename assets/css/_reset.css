@@ -1,6 +1,6 @@
 body {
   @apply w-full min-h-screen font-primary text-dark;
 }
-#app {
+#__nuxt {
   @apply flex flex-col w-full min-h-screen;
 }
