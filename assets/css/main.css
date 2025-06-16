@@ -1,0 +1,80 @@
+@import './_reset.css';
+@import './_root.css';
+@import 'tailwindcss';
+
+@theme {
+  /* Spacing */
+  --spacing: 1rem;
+
+  /* Fonts */
+  --font-primary: 'DM Sans', sans-serif;
+  --font-secondary: 'Playfair Display', sans-serif;
+
+  /* Colors */
+  --color-*: initial;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-primary: #AD343E;
+  --color-secondary: #4D592B;
+  --color-neutral-1: #F9F9F7;
+  --color-neutral-2: #DBDFD0;
+  --color-neutral-3: #737865;
+  --color-neutral-4: #414536;
+  --color-neutral-5: #2C2F24;
+  --color-neutral-6: #474747;
+  --color-neutral-7: #182226;
+  --color-neutral-8: #ADB29E;
+
+  /* Breakpoints */
+  --breakpoint-*: initial;
+  --breakpoint-lg-smartphone: 375px;
+  --breakpoint-tablet: 600px;
+  --breakpoint-lg-tablet: 768px;
+  --breakpoint-tablet-landscape: 900px;
+  --breakpoint-lg-tablet-landscape: 992px;
+  --breakpoint-desktop: 1200px;
+  --breakpoint-lg-desktop: 1800px;
+
+  /* Container */
+  --container-*: initial;
+  --container-lg: 90rem; /* 1440px */
+  --container-md: 81rem; /* 1296px */
+  --container-sm: 60rem; /* 960px */
+  --container-xs: 37.5rem; /* 600px */
+  --container-base: none;
+
+  /* Shadows */
+  --shadow-button: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  --shadow-card: 0 2.98px 59.57px 0 rgba(0, 0, 0, 0.08);
+}
+
+@theme inline {
+  --color-dark: var(--color-neutral-5);
+  --color-dark-400: var(--color-neutral-4);
+  --color-dark-300: var(--color-neutral-3);
+  --color-light: var(--color-neutral-1);
+  --color-light-400: var(--color-white);
+}
+
+@utility container-* {
+  @apply w-full px-(--spacing-screen-padding) mx-auto;
+  max-width: calc((var(--spacing-screen-padding) * 2 + --value(--container-*) * var(--container-base-size)));
+}
+
+@layer components {
+  .h1 {
+    @apply text-dark text-6xl font-secondary desktop:text-8xl;
+  }
+  .h2 {
+    @apply text-dark text-4xl font-secondary font-medium desktop:text-[3.5rem];
+  }
+  .h3 {
+    @apply text-dark font-bold text-[1.25rem];
+  }
+  .page-section {
+    @apply container-md py-[4rem] desktop:py-[7rem];
+  }
+  .card {
+    @apply border border-neutral-2 rounded-xl bg-white;
+  }
+}
