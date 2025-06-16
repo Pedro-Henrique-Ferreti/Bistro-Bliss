@@ -1,4 +1,5 @@
 import tailwindcss from '@tailwindcss/vite';
+import svgLoader from 'vite-svg-loader';
 
 export default defineNuxtConfig({
 	modules: ['@nuxt/eslint'],
@@ -23,7 +24,21 @@ export default defineNuxtConfig({
 	},
 	compatibilityDate: '2025-05-15',
 	vite: {
-		plugins: [tailwindcss()],
+		plugins: [
+			tailwindcss(),
+			svgLoader({
+				svgoConfig: {
+					plugins: [{
+						name: 'preset-default',
+						params: {
+							overrides: {
+								removeViewBox: false,
+							},
+						},
+					}],
+				},
+			}),
+		],
 	},
 	eslint: {
 		checker: true,
