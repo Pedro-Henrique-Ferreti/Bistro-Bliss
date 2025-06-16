@@ -2,6 +2,9 @@ import type { RouterConfig } from '@nuxt/schema';
 import HomeView from '@/views/HomeView.vue';
 
 export default {
+  scrollBehavior() {
+    return { left: 0, top: 0 };
+  },
   routes: () => ([
     {
       path: '/',
