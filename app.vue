@@ -1,8 +1,11 @@
 <template>
-  <h1>Hello world</h1>
-  <button type="button" @click="count++">
-    Count is: {{ count }}
-  </button>
+	<h1>Hello world</h1>
+	<button
+		type="button"
+		@click="count++"
+	>
+		Count is: {{ count }}
+	</button>
 </template>
 
 <script lang="ts" setup>

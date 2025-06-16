@@ -1,9 +1,17 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-05-15',
-  devtools: { enabled: true },
-  modules: ['@nuxt/eslint'],
-  devServer: {
-    port: 8080,
-  },
-})
+	modules: ['@nuxt/eslint'],
+	devtools: { enabled: true },
+	devServer: {
+		port: 8080,
+	},
+	compatibilityDate: '2025-05-15',
+	eslint: {
+		checker: true,
+		config: {
+			stylistic: {
+				indent: 'tab',
+				semi: true,
+			},
+		},
+	},
+});
