@@ -1,5 +1,6 @@
 import type { RouterConfig } from '@nuxt/schema';
 import HomeView from '@/views/HomeView.vue';
+import MenuView from '@/views/MenuView.vue';
 
 export default {
   scrollBehavior() {
@@ -19,7 +20,7 @@ export default {
     {
       path: '/menu',
       name: 'menu',
-      component: HomeView,
+      component: MenuView,
       meta: {
         header: { transparentBackground: true },
       },
