@@ -10,6 +10,9 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en',
       },
+      script: [
+        { src: 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js' },
+      ],
       link: [
         { rel: 'icon', href: '/favicon.png' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
@@ -24,6 +27,13 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2025-05-15',
   vite: {
+    vue: {
+      template: {
+        compilerOptions: {
+          isCustomElement: tag => tag.startsWith('swiper'),
+        },
+      },
+    },
     plugins: [
       tailwindcss(),
       svgLoader({
