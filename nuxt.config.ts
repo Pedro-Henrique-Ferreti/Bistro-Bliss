@@ -6,7 +6,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      title: 'Best Food for Your Taste | Bistro Bliss',
+      title: 'Bistro Bliss',
+      titleTemplate: '%s | Bistro Bliss',
       htmlAttrs: {
         lang: 'en',
       },

@@ -166,6 +166,10 @@ import IconClock from '@/assets/icons/Clock.svg';
 import IconReceiptTax from '@/assets/icons/ReceiptTax.svg';
 import IconShoppingCart from '@/assets/icons/ShoppingCart.svg';
 
+useSeoMeta({
+  title: 'Best Food for Your Taste',
+});
+
 const HOME_ARTICLES = [
   ARTICLE_LIST[0],
   ARTICLE_LIST[1],

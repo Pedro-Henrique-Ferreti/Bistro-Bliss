@@ -60,6 +60,10 @@ import LogoJustEat from '@/assets/logos/JustEat.svg';
 import LogoPostmates from '@/assets/logos/Postmates.svg';
 import LogoUberEats from '@/assets/logos/UberEats.svg';
 
+useSeoMeta({
+  title: 'Our Menu',
+});
+
 const APP_LOGOS = [
   LogoUberEats,
   LogoGrubhub,
