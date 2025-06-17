@@ -1,6 +1,7 @@
 import type { RouterConfig } from '@nuxt/schema';
 import HomeView from '@/views/HomeView.vue';
 import MenuView from '@/views/MenuView.vue';
+import AboutView from '@/views/AboutView.vue';
 
 export default {
   scrollBehavior() {
@@ -15,7 +16,7 @@ export default {
     {
       path: '/about',
       name: 'about',
-      component: HomeView,
+      component: AboutView,
     },
     {
       path: '/menu',
