@@ -28,8 +28,8 @@
 </template>
 
 <script setup lang="ts">
-import type { Article } from '@/types/Article';
 import { format } from 'date-fns';
+import type { Article } from '@/types/Article';
 
 defineProps<{
   article: Article;

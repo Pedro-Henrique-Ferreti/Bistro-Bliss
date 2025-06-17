@@ -63,13 +63,13 @@
           </NuxtLink>
           <NuxtLink
             class="hover:underline"
-            :to="{ name: 'contact'}"
+            :to="{ name: 'contact' }"
           >
             Contact
           </NuxtLink>
           <NuxtLink
             class="hover:underline"
-            :to="{ name: 'book-table'}"
+            :to="{ name: 'book-table' }"
           >
             Book A Table
           </NuxtLink>

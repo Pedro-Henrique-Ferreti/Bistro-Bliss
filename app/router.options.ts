@@ -49,4 +49,4 @@ export default {
       redirect: { name: 'home', params: {} },
     },
   ]),
-} satisfies RouterConfig
+} satisfies RouterConfig;
