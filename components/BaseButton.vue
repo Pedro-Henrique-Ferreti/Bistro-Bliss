@@ -9,7 +9,7 @@
   </button>
   <NuxtLink
     v-else
-    target="_blank"
+    :target="renderExternalLink ? '_blank' : undefined"
     :to="to"
     @click="handleClick"
   >
@@ -30,6 +30,14 @@ const props = withDefaults(defineProps<{
   type: 'button',
   to: undefined,
 });
+
+const renderExternalLink = computed(() => (
+  typeof props.to === 'string' && (
+    props.to.startsWith('http')
+    || props.to.startsWith('tel')
+    || props.to.startsWith('mailto')
+  )
+));
 
 function handleClick(event: Event) {
   /**
