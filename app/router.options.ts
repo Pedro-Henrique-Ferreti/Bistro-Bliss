@@ -3,6 +3,7 @@ import HomeView from '@/views/HomeView.vue';
 import MenuView from '@/views/MenuView.vue';
 import AboutView from '@/views/AboutView.vue';
 import ContactView from '@/views/ContactView.vue';
+import BookTableView from '@/views/BookTableView.vue';
 
 export default {
   scrollBehavior() {
@@ -45,7 +46,7 @@ export default {
     {
       path: '/book-a-table',
       name: 'book-table',
-      component: HomeView,
+      component: BookTableView,
     },
     {
       path: '/:pathMatch(.*)*',
