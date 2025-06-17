@@ -2,6 +2,7 @@ import type { RouterConfig } from '@nuxt/schema';
 import HomeView from '@/views/HomeView.vue';
 import MenuView from '@/views/MenuView.vue';
 import AboutView from '@/views/AboutView.vue';
+import ContactView from '@/views/ContactView.vue';
 
 export default {
   scrollBehavior() {
@@ -39,7 +40,7 @@ export default {
     {
       path: '/contact',
       name: 'contact',
-      component: HomeView,
+      component: ContactView,
     },
     {
       path: '/book-a-table',
