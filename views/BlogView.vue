@@ -19,14 +19,11 @@
 </template>
 
 <script lang="ts" setup>
-import { isBefore } from 'date-fns';
-import { ARTICLE_LIST } from '@/constants/articles';
+import type { Article } from '~/types/Article';
 
 useSeoMeta({
   title: 'Our Blog & Articles',
 });
 
-const articleList = [...ARTICLE_LIST].sort((a, b) => (
-  isBefore(new Date(a.createdAt), new Date(b.createdAt)) ? 1 : -1
-));
+const { data: articleList } = await useFetch<Article[]>('/api/articles');
 </script>

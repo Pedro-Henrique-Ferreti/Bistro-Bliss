@@ -35,18 +35,14 @@
 </template>
 
 <script lang="ts" setup>
-import { computed } from 'vue';
-import { useRoute } from 'vue-router';
-import { isBefore } from 'date-fns';
-import { ARTICLE_LIST } from '@/constants/articles';
+import type { Article } from '~/types/Article';
 
 const route = useRoute();
 
-const article = computed(() => ARTICLE_LIST.find(i => i.id === +route.params.articleId));
-
-const articleList = [...ARTICLE_LIST].sort((a, b) => (
-  isBefore(new Date(a.createdAt), new Date(b.createdAt)) ? 1 : -1
-)).slice(0, 4);
+const { data: article } = await useFetch<Article>(`/api/articles/${route.params.slug}`);
+const { data: articleList } = await useFetch('/api/articles', {
+  params: { limit: 4 },
+});
 
 useSeoMeta({
   title: () => (article.value?.title),
