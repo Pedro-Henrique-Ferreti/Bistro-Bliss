@@ -47,6 +47,10 @@ const article = computed(() => ARTICLE_LIST.find(i => i.id === +route.params.art
 const articleList = [...ARTICLE_LIST].sort((a, b) => (
   isBefore(new Date(a.createdAt), new Date(b.createdAt)) ? 1 : -1
 )).slice(0, 4);
+
+useSeoMeta({
+  title: () => (article.value?.title),
+});
 </script>
 
 <style scoped>

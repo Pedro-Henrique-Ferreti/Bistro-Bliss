@@ -22,6 +22,10 @@
 import { isBefore } from 'date-fns';
 import { ARTICLE_LIST } from '@/constants/articles';
 
+useSeoMeta({
+  title: 'Our Blog & Articles',
+});
+
 const articleList = [...ARTICLE_LIST].sort((a, b) => (
   isBefore(new Date(a.createdAt), new Date(b.createdAt)) ? 1 : -1
 ));
