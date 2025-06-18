@@ -4,6 +4,8 @@ import MenuView from '@/views/MenuView.vue';
 import AboutView from '@/views/AboutView.vue';
 import ContactView from '@/views/ContactView.vue';
 import BookTableView from '@/views/BookTableView.vue';
+import BlogView from '@/views/BlogView.vue';
+import BlogArticleView from '@/views/BlogArticleView.vue';
 
 export default {
   scrollBehavior() {
@@ -31,12 +33,12 @@ export default {
     {
       path: '/blog',
       name: 'blog',
-      component: HomeView,
+      component: BlogView,
     },
     {
       path: '/blog/:articleId',
       name: 'blog-article',
-      component: HomeView,
+      component: BlogArticleView,
     },
     {
       path: '/contact',
