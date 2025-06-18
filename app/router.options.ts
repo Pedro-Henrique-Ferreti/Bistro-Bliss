@@ -36,7 +36,7 @@ export default {
       component: BlogView,
     },
     {
-      path: '/blog/:articleId',
+      path: '/blog/:slug',
       name: 'blog-article',
       component: BlogArticleView,
     },

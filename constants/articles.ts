@@ -1,9 +1,10 @@
 import type { Article } from '@/types/Article';
 
-export const ARTICLE_LIST: Article[] = [
+export const ARTICLE_LIST: readonly Article[] = [
   {
     id: 1,
     title: 'The secret tips & tricks to prepare our perfect burger',
+    slug: 'the-secret-tips-tricks-to-prepare-our-perfect-burger',
     image: 'https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     createdAt: '2025-01-12T00:00:00.000',
     description: 'What do you need to prepare a home-made burger? Creating the perfect burger and pizza is an art, combining ingredients, techniques, and passion to craft dishes that truly delight the palate...',
@@ -12,6 +13,7 @@ export const ARTICLE_LIST: Article[] = [
   {
     id: 2,
     title: 'How to prepare the perfect french fries in an air fryer',
+    slug: 'how-to-prepare-the-perfect-french-fries-in-an-air-fryer',
     image: 'https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=600',
     createdAt: '2025-01-18T00:00:00.000',
     content: `<h2>What do you need to prepare a home-made burger?</h2>\n<p>Creating the perfect burger and pizza is an art, combining ingredients, techniques, and passion to craft dishes that truly delight the palate. Today, we'll unveil some closely guarded secrets and insider tips for mastering these beloved staples of the culinary world.</p>\n<p>&nbsp;</p>\n<ol>\n<li><strong>Quality Beef:</strong> The heart of a perfect burger is top-notch beef. Opt for fresh, high-quality ground beef with a fat content of about 20% for the juiciest, most flavorful results.</li>\n<li><strong>Seasoning:</strong> Simplicity is key here. A generous pinch of salt and black pepper just before cooking will enhance the beef's natural flavors without overshadowing them.</li>\n<li><strong>Don&rsquo;t Overwork the Meat:</strong> When forming your patties, be gentle. Overworking the meat can lead to dense, tough burgers. You want a patty that's firm enough to hold together, but not compressed.</li>\n<li><strong>Cooking:</strong> High heat is crucial. Whether you're grilling or pan-searing, make sure your cooking surface is hot enough to form a nice crust on the patty, sealing in those delicious juices.</li>\n<li><strong>Resting:</strong> Allow your cooked burgers to rest for a few minutes before serving. This lets the juices redistribute throughout the patty, ensuring a moist and flavorful bite.</li>\n</ol>\n<p>&nbsp;</p>\n<h2>What are the right ingredients to make it delicious?</h2>\n<p>Creating the perfect burger and pizza is an art, combining ingredients, techniques, and passion to craft dishes that truly delight the palate. Today, we'll unveil some closely guarded secrets and insider tips for mastering these beloved staples of the culinary world.</p>\n<ol>\n<li><strong>Quality Beef:</strong> The heart of a perfect burger is top-notch beef. Opt for fresh, high-quality ground beef with a fat content of about 20% for the juiciest, most flavorful results.</li>\n<li><strong>Seasoning:</strong> Simplicity is key here. A generous pinch of salt and black pepper just before cooking will enhance the beef's natural flavors without overshadowing them.</li>\n<li><strong>Don&rsquo;t Overwork the Meat:</strong> When forming your patties, be gentle. Overworking the meat can lead to dense, tough burgers. You want a patty that's firm enough to hold together, but not compressed.</li>\n<li><strong>Cooking:</strong> High heat is crucial. Whether you're grilling or pan-searing, make sure your cooking surface is hot enough to form a nice crust on the patty, sealing in those delicious juices.</li>\n<li><strong>Resting:</strong> Allow your cooked burgers to rest for a few minutes before serving. This lets the juices redistribute throughout the patty, ensuring a moist and flavorful bite.</li>\n</ol>\n<p>&nbsp;</p>\n<h2>What are the right ingredients to make it delicious?</h2>\n<p>Proin faucibus nec mauris a sodales, sed elementum mi tincidunt. Sed eget viverra egestas nisi in consequat. Fusce sodales augue a accumsa Cras sollicitudin, le ligula, porttitor eu, consequat vitae, eleifend ac, enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper lorem eu cursus ve of all hendrerit elementum morbi curabitur etiam nibh justo, lorem aliquet donec sed sit mi dignissim at ante massa mattis magna sit amet purus gravida quis blandit turpis.</p>`,
@@ -19,6 +21,7 @@ export const ARTICLE_LIST: Article[] = [
   {
     id: 3,
     title: 'How to prepare delicious chicken tenders',
+    slug: 'how-to-prepare-delicious-chicken-tenders',
     image: 'https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=600',
     createdAt: '2025-02-01T00:00:00.000',
     content: `<h2>What do you need to prepare a home-made burger?</h2>\n<p>Creating the perfect burger and pizza is an art, combining ingredients, techniques, and passion to craft dishes that truly delight the palate. Today, we'll unveil some closely guarded secrets and insider tips for mastering these beloved staples of the culinary world.</p>\n<p>&nbsp;</p>\n<ol>\n<li><strong>Quality Beef:</strong> The heart of a perfect burger is top-notch beef. Opt for fresh, high-quality ground beef with a fat content of about 20% for the juiciest, most flavorful results.</li>\n<li><strong>Seasoning:</strong> Simplicity is key here. A generous pinch of salt and black pepper just before cooking will enhance the beef's natural flavors without overshadowing them.</li>\n<li><strong>Don&rsquo;t Overwork the Meat:</strong> When forming your patties, be gentle. Overworking the meat can lead to dense, tough burgers. You want a patty that's firm enough to hold together, but not compressed.</li>\n<li><strong>Cooking:</strong> High heat is crucial. Whether you're grilling or pan-searing, make sure your cooking surface is hot enough to form a nice crust on the patty, sealing in those delicious juices.</li>\n<li><strong>Resting:</strong> Allow your cooked burgers to rest for a few minutes before serving. This lets the juices redistribute throughout the patty, ensuring a moist and flavorful bite.</li>\n</ol>\n<p>&nbsp;</p>\n<h2>What are the right ingredients to make it delicious?</h2>\n<p>Creating the perfect burger and pizza is an art, combining ingredients, techniques, and passion to craft dishes that truly delight the palate. Today, we'll unveil some closely guarded secrets and insider tips for mastering these beloved staples of the culinary world.</p>\n<ol>\n<li><strong>Quality Beef:</strong> The heart of a perfect burger is top-notch beef. Opt for fresh, high-quality ground beef with a fat content of about 20% for the juiciest, most flavorful results.</li>\n<li><strong>Seasoning:</strong> Simplicity is key here. A generous pinch of salt and black pepper just before cooking will enhance the beef's natural flavors without overshadowing them.</li>\n<li><strong>Don&rsquo;t Overwork the Meat:</strong> When forming your patties, be gentle. Overworking the meat can lead to dense, tough burgers. You want a patty that's firm enough to hold together, but not compressed.</li>\n<li><strong>Cooking:</strong> High heat is crucial. Whether you're grilling or pan-searing, make sure your cooking surface is hot enough to form a nice crust on the patty, sealing in those delicious juices.</li>\n<li><strong>Resting:</strong> Allow your cooked burgers to rest for a few minutes before serving. This lets the juices redistribute throughout the patty, ensuring a moist and flavorful bite.</li>\n</ol>\n<p>&nbsp;</p>\n<h2>What are the right ingredients to make it delicious?</h2>\n<p>Proin faucibus nec mauris a sodales, sed elementum mi tincidunt. Sed eget viverra egestas nisi in consequat. Fusce sodales augue a accumsa Cras sollicitudin, le ligula, porttitor eu, consequat vitae, eleifend ac, enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper lorem eu cursus ve of all hendrerit elementum morbi curabitur etiam nibh justo, lorem aliquet donec sed sit mi dignissim at ante massa mattis magna sit amet purus gravida quis blandit turpis.</p>`,
@@ -26,12 +29,14 @@ export const ARTICLE_LIST: Article[] = [
   {
     id: 4,
     title: '7 delicious cheesecake recipes you can prepare',
+    slug: '7-delicious-cheesecake-recipes-you-can-prepare',
     image: 'https://images.pexels.com/photos/635409/pexels-photo-635409.jpeg?auto=compress&cs=tinysrgb&w=600',
     createdAt: '2025-02-11T00:00:00.000',
     content: `<h2>What do you need to prepare a home-made burger?</h2>\n<p>Creating the perfect burger and pizza is an art, combining ingredients, techniques, and passion to craft dishes that truly delight the palate. Today, we'll unveil some closely guarded secrets and insider tips for mastering these beloved staples of the culinary world.</p>\n<p>&nbsp;</p>\n<ol>\n<li><strong>Quality Beef:</strong> The heart of a perfect burger is top-notch beef. Opt for fresh, high-quality ground beef with a fat content of about 20% for the juiciest, most flavorful results.</li>\n<li><strong>Seasoning:</strong> Simplicity is key here. A generous pinch of salt and black pepper just before cooking will enhance the beef's natural flavors without overshadowing them.</li>\n<li><strong>Don&rsquo;t Overwork the Meat:</strong> When forming your patties, be gentle. Overworking the meat can lead to dense, tough burgers. You want a patty that's firm enough to hold together, but not compressed.</li>\n<li><strong>Cooking:</strong> High heat is crucial. Whether you're grilling or pan-searing, make sure your cooking surface is hot enough to form a nice crust on the patty, sealing in those delicious juices.</li>\n<li><strong>Resting:</strong> Allow your cooked burgers to rest for a few minutes before serving. This lets the juices redistribute throughout the patty, ensuring a moist and flavorful bite.</li>\n</ol>\n<p>&nbsp;</p>\n<h2>What are the right ingredients to make it delicious?</h2>\n<p>Creating the perfect burger and pizza is an art, combining ingredients, techniques, and passion to craft dishes that truly delight the palate. Today, we'll unveil some closely guarded secrets and insider tips for mastering these beloved staples of the culinary world.</p>\n<ol>\n<li><strong>Quality Beef:</strong> The heart of a perfect burger is top-notch beef. Opt for fresh, high-quality ground beef with a fat content of about 20% for the juiciest, most flavorful results.</li>\n<li><strong>Seasoning:</strong> Simplicity is key here. A generous pinch of salt and black pepper just before cooking will enhance the beef's natural flavors without overshadowing them.</li>\n<li><strong>Don&rsquo;t Overwork the Meat:</strong> When forming your patties, be gentle. Overworking the meat can lead to dense, tough burgers. You want a patty that's firm enough to hold together, but not compressed.</li>\n<li><strong>Cooking:</strong> High heat is crucial. Whether you're grilling or pan-searing, make sure your cooking surface is hot enough to form a nice crust on the patty, sealing in those delicious juices.</li>\n<li><strong>Resting:</strong> Allow your cooked burgers to rest for a few minutes before serving. This lets the juices redistribute throughout the patty, ensuring a moist and flavorful bite.</li>\n</ol>\n<p>&nbsp;</p>\n<h2>What are the right ingredients to make it delicious?</h2>\n<p>Proin faucibus nec mauris a sodales, sed elementum mi tincidunt. Sed eget viverra egestas nisi in consequat. Fusce sodales augue a accumsa Cras sollicitudin, le ligula, porttitor eu, consequat vitae, eleifend ac, enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper lorem eu cursus ve of all hendrerit elementum morbi curabitur etiam nibh justo, lorem aliquet donec sed sit mi dignissim at ante massa mattis magna sit amet purus gravida quis blandit turpis.</p>`,
   },
   {
     id: 5,
+    slug: '5-great-pizza-restaurants-you-should-visit-this-city',
     title: '5 great pizza restaurants you should visit this city',
     image: 'https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600',
     createdAt: '2025-02-20T00:00:00.000',
@@ -39,6 +44,7 @@ export const ARTICLE_LIST: Article[] = [
   },
   {
     id: 6,
+    slug: 'celebrate-chocolate-season-with-these-delicious-treats',
     title: 'Celebrate chocolate season with these delicious treats',
     image: 'https://images.pexels.com/photos/8774282/pexels-photo-8774282.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=279.825&fit=crop&h=453.05',
     createdAt: '2025-02-27T00:00:00.000',
@@ -46,6 +52,7 @@ export const ARTICLE_LIST: Article[] = [
   },
   {
     id: 7,
+    slug: 'prepare-this-simple-summer-dessert-to-amaze-your-guests',
     title: 'Prepare this simple summer dessert to amaze your guests',
     image: 'https://images.pexels.com/photos/1132558/pexels-photo-1132558.jpeg?auto=compress&cs=tinysrgb&w=600',
     createdAt: '2025-03-06T00:00:00.000',
@@ -53,6 +60,7 @@ export const ARTICLE_LIST: Article[] = [
   },
   {
     id: 8,
+    slug: 'the-10-drinks-you-should-try-this-summer',
     title: 'The 10 drinks you should try this summer',
     image: 'https://images.pexels.com/photos/103566/pexels-photo-103566.jpeg?auto=compress&cs=tinysrgb&w=600',
     createdAt: '2025-03-14T00:00:00.000',
@@ -60,6 +68,7 @@ export const ARTICLE_LIST: Article[] = [
   },
   {
     id: 9,
+    slug: 'surprising-ways-to-prepare-a-healthy-breakfast',
     title: 'Surprising ways to prepare a healthy breakfast',
     image: 'https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600',
     createdAt: '2025-03-18T00:00:00.000',
@@ -67,6 +76,7 @@ export const ARTICLE_LIST: Article[] = [
   },
   {
     id: 10,
+    slug: 'tips-and-tricks-to-prepare-this-classic-italian-pasta',
     title: 'Tips & tricks to prepare this classic italian pasta',
     image: 'https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600',
     createdAt: '2025-03-27T00:00:00.000',
@@ -74,6 +84,7 @@ export const ARTICLE_LIST: Article[] = [
   },
   {
     id: 11,
+    slug: 'meet-the-chef-behind-our-best-selling-recipe',
     title: 'Meet the chef behind our best-selling recipe',
     image: 'https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=600',
     createdAt: '2025-04-07T00:00:00.000',
@@ -81,9 +92,10 @@ export const ARTICLE_LIST: Article[] = [
   },
   {
     id: 12,
+    slug: 'prepare-the-delicious-cake-everyone-is-talking-about-this-summer',
     title: 'Prepare the delicious cake everyone is talking about this summer',
     image: 'https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=600',
     createdAt: '2025-04-21T00:00:00.000',
     content: `<h2>What do you need to prepare a home-made burger?</h2>\n<p>Creating the perfect burger and pizza is an art, combining ingredients, techniques, and passion to craft dishes that truly delight the palate. Today, we'll unveil some closely guarded secrets and insider tips for mastering these beloved staples of the culinary world.</p>\n<p>&nbsp;</p>\n<ol>\n<li><strong>Quality Beef:</strong> The heart of a perfect burger is top-notch beef. Opt for fresh, high-quality ground beef with a fat content of about 20% for the juiciest, most flavorful results.</li>\n<li><strong>Seasoning:</strong> Simplicity is key here. A generous pinch of salt and black pepper just before cooking will enhance the beef's natural flavors without overshadowing them.</li>\n<li><strong>Don&rsquo;t Overwork the Meat:</strong> When forming your patties, be gentle. Overworking the meat can lead to dense, tough burgers. You want a patty that's firm enough to hold together, but not compressed.</li>\n<li><strong>Cooking:</strong> High heat is crucial. Whether you're grilling or pan-searing, make sure your cooking surface is hot enough to form a nice crust on the patty, sealing in those delicious juices.</li>\n<li><strong>Resting:</strong> Allow your cooked burgers to rest for a few minutes before serving. This lets the juices redistribute throughout the patty, ensuring a moist and flavorful bite.</li>\n</ol>\n<p>&nbsp;</p>\n<h2>What are the right ingredients to make it delicious?</h2>\n<p>Creating the perfect burger and pizza is an art, combining ingredients, techniques, and passion to craft dishes that truly delight the palate. Today, we'll unveil some closely guarded secrets and insider tips for mastering these beloved staples of the culinary world.</p>\n<ol>\n<li><strong>Quality Beef:</strong> The heart of a perfect burger is top-notch beef. Opt for fresh, high-quality ground beef with a fat content of about 20% for the juiciest, most flavorful results.</li>\n<li><strong>Seasoning:</strong> Simplicity is key here. A generous pinch of salt and black pepper just before cooking will enhance the beef's natural flavors without overshadowing them.</li>\n<li><strong>Don&rsquo;t Overwork the Meat:</strong> When forming your patties, be gentle. Overworking the meat can lead to dense, tough burgers. You want a patty that's firm enough to hold together, but not compressed.</li>\n<li><strong>Cooking:</strong> High heat is crucial. Whether you're grilling or pan-searing, make sure your cooking surface is hot enough to form a nice crust on the patty, sealing in those delicious juices.</li>\n<li><strong>Resting:</strong> Allow your cooked burgers to rest for a few minutes before serving. This lets the juices redistribute throughout the patty, ensuring a moist and flavorful bite.</li>\n</ol>\n<p>&nbsp;</p>\n<h2>What are the right ingredients to make it delicious?</h2>\n<p>Proin faucibus nec mauris a sodales, sed elementum mi tincidunt. Sed eget viverra egestas nisi in consequat. Fusce sodales augue a accumsa Cras sollicitudin, le ligula, porttitor eu, consequat vitae, eleifend ac, enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper lorem eu cursus ve of all hendrerit elementum morbi curabitur etiam nibh justo, lorem aliquet donec sed sit mi dignissim at ante massa mattis magna sit amet purus gravida quis blandit turpis.</p>`,
   },
-] as const;
+];

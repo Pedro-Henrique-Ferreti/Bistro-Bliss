@@ -1,7 +1,7 @@
 <template>
   <NuxtLink
     class="flex flex-col bg-white border border-neutral-1 rounded-xl shadow-card group"
-    :to="{ name: 'blog-article', params: { articleId: article.id } }"
+    :to="{ name: 'blog-article', params: { slug: article.slug } }"
   >
     <div class="overflow-hidden rounded-t-xl aspect-[3/2]">
       <img
